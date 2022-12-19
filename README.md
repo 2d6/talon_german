@@ -16,7 +16,7 @@ This is a plug-in for Talon Voice (https://talonvoice.com/).
   unzip vosk-model-de.zip
   mv vosk-model-de-* vosk-model-de
   ```
-* run `~/.talon/bin/pip install vosk` (on windows `scripts\pip install vosk`)
+* run `~/.talon/bin/pip install vosk` (on windows `%appdata%\talon\.venv\Scripts\pip.bat install vosk`)
 * clone this repository into your talon user folder (`~/.talon/user`)
 
 It won't work on mac unless you sign the pip installed library file yourself, or unless aegis ships the vosk kaldi library with talon pre-signed.
